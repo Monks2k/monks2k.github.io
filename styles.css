@@ -4,10 +4,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    align-items: center;
+    background-color: #333;
+}
+section { color: rgb(2, 21, 26);
 }
 
 header {
-    background-color: #333;
+    background-color: #c5aa11;
     color: #fff;
     padding: 10px 0;
 }
@@ -28,6 +32,7 @@ nav ul li {
     font-weight: bold;
     margin-right: auto;
 }
+p.yo{color: #13bbee;}
 
 .menu {
     margin-left: auto;
@@ -52,6 +57,9 @@ nav ul li {
 .banner p {
     margin: 20px 0;
 }
+h6{
+    text-align: center;
+}
 
 .banner .btn {
     background-color: #333;
@@ -59,6 +67,8 @@ nav ul li {
     padding: 10px 20px;
     text-decoration: none;
 }
+p.zero{text-align:center;
+color: #13bbee;}
 
 /* Room-Specific Decor Ideas Section */
 
