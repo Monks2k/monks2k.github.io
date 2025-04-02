@@ -11,7 +11,7 @@ section { color: rgb(2, 21, 26);
 }
 
 header {
-    background-color: #c5aa11;
+    background-color: #57b5eb;
     color: #fff;
     padding: 10px 0;
 }
@@ -28,14 +28,30 @@ nav ul li {
 }
 
 .logo {
+    color: #161414;
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: auto;
 }
-p.yo{color: #13bbee;}
+p.yo{color: #52a7b3;
+
+text-decoration: double;
+}
 
 .menu {
     margin-left: auto;
+}
+
+div.carousel-item{
+    margin-left: 2%;
+    margin-right: 2%;
+
+
+}
+
+div.hey{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .main {
@@ -57,8 +73,10 @@ p.yo{color: #13bbee;}
 .banner p {
     margin: 20px 0;
 }
-.y2{
+
+h6.y2{ color: #13bbee;
     text-align: center;
+    ;
 }
 
 .banner .btn {
@@ -68,7 +86,7 @@ p.yo{color: #13bbee;}
     text-decoration: none;
 }
 p.zero{text-align:center;
-color: #13bbee;}
+color: #29d38c;}
 
 /* Room-Specific Decor Ideas Section */
 
@@ -96,13 +114,34 @@ color: #13bbee;}
     margin-bottom: 20px;
 }
 
+div.hero{
+    background-color: #333;
+    margin-left: 2%;
+    
+}
+
+.bro{
+    color: #b7eb57;
+    
+}
+
+section.featured{
+    background-color: #333;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 /* Footer Section */
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #161414;
     padding: 20px 0;
     text-align: center;
+}
+a.hwai{
+    color: #1ac5db;
+    text-align: justify;
 }
 
 footer ul {
@@ -116,6 +155,13 @@ footer ul li {
     margin-right: 20px;
 }
 
+.end{
+    color: #13bbee;
+}
+
+h3{
+    color: #b7eb57;
+}
 /* Responsive Styles */
 
 @media only screen and (max-width: 768px) {
